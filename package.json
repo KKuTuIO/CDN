@@ -1,0 +1,14 @@
+{
+  "name": "kkutuio",
+  "version": "1.0.0",
+  "description": "Rule the Words! KKuTu Online",
+  "scripts": {
+    "test": "echo \"Error: testing unsupported\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horyu1234/KKuTuIO-CDN"
+  },
+  "author": "KKuTuIO",
+  "license": "AGPLv3"
+}

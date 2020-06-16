@@ -1,0 +1,18 @@
+# KKuTuIO - kkutu.io
+
+name: kkutuio-cdn
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish-to-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Publish
+        uses: mikeal/merge-release@master
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
